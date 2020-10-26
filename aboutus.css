@@ -1,0 +1,54 @@
+@charset "UTF-8";
+/* CSS Document */
+*{
+	margin: 0px; padding: 0px;
+}
+#header{
+	background-image: url("image/header.jpg"); background-size:cover;height:500px;
+	text-align: center;	color:#3a3d34;	
+}
+.p1{ float:left;padding: 20px;}
+.p2{float:right;padding: 20px;}
+#header h1{
+	text-align: center;
+	padding-top: 150px;
+}
+.try{
+	background-color: orangered; color:aliceblue;
+	padding:10px;
+	border:none;border-radius: 30px;
+	margin: 20px 0 auto;
+}
+.try:hover{
+	background-color: aqua;
+	color: red;
+}
+#intro{
+	width:100%; height:400px;background-color:#029292;; display: flex;flex-direction:column; justify-content: center;align-items: center; 
+	color: aliceblue; line-height: 30px;
+}
+#intro h2{
+	 color:aliceblue;font-size: 30px;padding-top: 80px;
+}
+.wrapper{
+	padding-top: 80px;
+}
+.wrap1{
+    width: 240px; height:200px;float:left; 
+} 
+.wrap2, .wrap3, .wrap4{
+	width: 250px; height:200px;float:left; margin-left: 80px; 
+}
+.container{
+	width:1300px; height:600px; margin: 0 auto;
+	background-color: antiquewhite;
+}
+.text{
+	float:left; width: 500px; padding: 65px;
+}
+.text h3{
+	font-size: 30px; padding: 30px;
+}
+.img1{
+	float:right;
+}
